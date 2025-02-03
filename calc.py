@@ -1,9 +1,9 @@
 #Calculator with basic functions
 num1 = float(input('Input first number: '))
-num2 = float(input('Input second number: '))
 oper = input('Input operation. (*, /, +, -): ')
+num2 = float(input('Input second number: '))
 while oper != '*' and oper != '/' and oper != '+' and oper != '-':
-        oper = input('Please input valid operation. (* / + -)')
+        oper = input('Please input valid operation. (* / + -): ')
 if oper == '*':
     ans = num1 * num2
 elif oper == '/':
